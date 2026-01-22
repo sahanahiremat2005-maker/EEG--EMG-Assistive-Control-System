@@ -1,2 +1,3 @@
-# EEG--EMG-Assistive-Control-System
-EEG &amp; EMG based hands-free assistive control system
+# EEG & EMG Based Assistive Control System
+
+This project demonstrates a hands-free assistive system using EEG and EMG bio-signals to control machines.

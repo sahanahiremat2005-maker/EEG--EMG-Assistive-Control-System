@@ -1,1 +1,23 @@
-software/esp32_code.ino
+/*
+ EEG & EMG Assistive Control - MVP Code
+*/
+
+int emgPin = A0;
+int threshold = 500;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int emgValue = analogRead(emgPin);
+
+  if (emgValue > threshold) {
+    Serial.println("COMMAND: ACTIVATE");
+  } else {
+    Serial.println("COMMAND: NO ACTION");
+  }
+
+  delay(500);
+}
+

@@ -1,1 +1,12 @@
-architecture/architecture_diagram.jpeg
+EEG Sensor      EMG Sensor
+     \            /
+      Signal Processing
+             ↓
+     ESP32 / Arduino
+             ↓
+     Control Interface
+             ↓
+        Target Machine
+             ↓
+      Firebase (logs)
+architecture_diagram.jpg

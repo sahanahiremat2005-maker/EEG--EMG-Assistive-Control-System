@@ -1,1 +1,13 @@
-software/signal_processing.py
+# Signal Processing for EEG & EMG (MVP)
+
+import numpy as np
+
+def normalize(signal):
+    return (signal - np.mean(signal)) / np.std(signal)
+
+# Sample EMG signal (simulated)
+emg_signal = np.array([120, 300, 450, 700, 400])
+
+normalized_signal = normalize(emg_signal)
+print("Processed EMG Signal:", normalized_signal)
+

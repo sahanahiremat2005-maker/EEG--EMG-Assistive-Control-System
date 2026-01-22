@@ -1,1 +1,23 @@
-hardware/components_list.txt
+HARDWARE COMPONENTS USED
+
+1. EMG Sensor Module
+   - Used to detect muscle contraction signals.
+
+2. EEG Sensor (Concept / Simulated)
+   - Used to capture brain intent signals.
+
+3. ESP32 / Arduino Microcontroller
+   - Processes EEG & EMG data and generates commands.
+
+4. Control Interface
+   - Relay module or digital I/O interface to connect machines.
+
+5. Power Supply
+   - Battery or USB power.
+
+6. Electrodes & Wires
+   - Used for bio-signal acquisition.
+
+NOTE:
+For MVP, EMG is implemented in hardware and EEG is simulated for intent validation.
+

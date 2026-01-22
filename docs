@@ -1,1 +1,7 @@
-docs/mvp_description.txt
+MVP DESCRIPTION
+
+This MVP demonstrates the feasibility of an EEG & EMG based assistive control system.
+The system uses muscle signals and simulated brain intent to generate digital commands.
+Google Firebase is used for monitoring and scalability.
+The prototype validates the concept for real-world assistive machine control.
+
